@@ -37,7 +37,7 @@ class Vqa_bert_Dataset(data.Dataset):
         image = Image.open(image).convert('RGB')
 
 
-        # bert --> too much classes
+        # bert 
         bert_qst2idc = np.array([qst_vocab.word2idx('<pad>')] * max_qst_length)  # padded with '<pad>' in 'ans_vocab'
         bert_qst2idc[:len(vqa[idx]['question_tokens'])] = [qst_vocab.bert_token2id(w) for w in vqa[idx]['question_tokens']]
         # print(qst2idc)
