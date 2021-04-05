@@ -16,3 +16,11 @@ python train.py --pretrained_model vgg16 --bert yes
 ```
 
 ## Citation
+@misc{wu2016visual,
+      title={Visual Question Answering: A Survey of Methods and Datasets}, 
+      author={Qi Wu and Damien Teney and Peng Wang and Chunhua Shen and Anthony Dick and Anton van den Hengel},
+      year={2016},
+      eprint={1607.05910},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
