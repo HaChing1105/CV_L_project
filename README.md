@@ -1,1 +1,4 @@
 # CV&L_project
+Visual Question Answering(VQA) received in-creasing  attention  in  multi-discipline  Artifi-cial  Intelligence.   Given  an  image  and  ques-tions  in  natural  language. VQA  model  rea-soning  over  visual  cues  of  image  and  com-mon sense knowledge to reply to a correct an-swer.(Singh et al., 2020) VQA task usually re-quires a great amount of knowledge, and trans-fer learning would be a potential solution for it.
+
+This project will demonstrate how can transferlearning models perform in VQA tasks. I fine-tuned various pre-trained models on the down-stream dataset.  The research question in thisreport  is  toinvestigate the performance ofthe different pre-trained models on down-stream datasets.  Additionally, exploring thefuture work based on the result and error analysis.
