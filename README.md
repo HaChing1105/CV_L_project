@@ -24,3 +24,9 @@ python train.py --pretrained_model vgg16 --bert yes
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
+@InProceedings{VQA, 
+        author = {Stanislaw Antol and Aishwarya Agrawal and Jiasen Lu and Margaret Mitchell and Dhruv Batra and C. Lawrence Zitnick and Devi Parikh}, 
+        title = {{VQA}: {V}isual {Q}uestion {A}nswering}, 
+        booktitle = {International Conference on Computer Vision (ICCV)}, 
+        year = {2015}, 
+}
